@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <div id="particles-js"></div> 
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#project" class="nav-link">Project</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class=" home-content" id="home">
+            <div id="text-profile" class="intro-text">
+                <h2>Hello, It's Me</h2>
+                <h1 id="myname">Pang Papangkorn</h1>
+                <h3>And I'm a <span class="typed-text"></span><span class="cursor">&nbsp;</span></h3>
+                <p>This is my website. <span class="highlight">I am a science and technology student at Krabi Provincial Administrative Organization School who is interested in innovation and enjoys mathematics, physics, and English. I am also interested in web development. I always have fun working on these things, and I love learning new things to improve myself continuously.</span></p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+                <button class="download-cv">Download CV</button>
+            </div>
+            <div class="profile-image" >
+                <img src="images/me.jpg" alt="me">
+            </div>
+        </div>
+        <div class="about-me" id="about">
+            <h2>About <span class="high-light">me</span></h2>
+            <p>Hello! I'm Pang, An innovation and invention enthusiast living in Krabi, Thailand. I have special skills in calculations, innovation, and the English language.</p>
+        </div>
+        <div class="skills">
+            <h2>My <span class="high-light">skills</span></h2>
+            <div class="grid-skill"> 
+                <div class="item-skill">
+                    <div class="header-item-skill">
+                        <h3 class="high-light">Web Development</h3>
+                    </div>
+                    <div class="item-grid-info">
+                        <img src="images/skill2.png" style=" object-fit: cover ; min-width: 100px; height: 180px; border-radius: 10px;"></img>
+                        <div style="margin-left:10px" >Develop a website using HTML, CSS, JavaScript.</div>
+                    </div>
+                </div>
+                <div class="item-skill">
+                    <div class="header-item-skill">
+                        <h3 class="high-light">Sports</h3>
+                    </div>
+                    <div class="item-grid-info">
+                        <img src="images/skill1.png" style=" object-fit: cover ; min-width: 100px; height: 180px; border-radius: 10px;"></img>
+                        <div style="margin-left:10px" >I am a Taekwondo athlete at the 01 DAN ADVANCE (NOVICE) level and a futsal player and a runner for KPAOS.</div>
+                    </div>
+                </div>
+                <div class="item-skill">
+                    <div class="header-item-skill">
+                        <h3 class="high-light">Languages</h3>
+                    </div>
+                    <div class="item-grid-info">
+                        <img src="images/skill1.png" style=" object-fit: cover ; min-width: 100px; height: 180px; border-radius: 10px;"></img>
+                        <div class="sidebar">
+                            <div class="nav-item">
+                                <div class="chevron">&#9674;</div>
+                                <div class="text">Thai (Native)</div>
+                            </div>
+                            <div class="nav-item">
+                                <div class="chevron">&#9674;</div>
+                                <div class="text">English (Fluent)</div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="item-skill">
+                    <div class="header-item-skill">
+                        <h3 class="high-light">Education</h3>
+                    </div>
+                    <div class="item-grid-info">
+                        <img src="images/skill2.png" style=" object-fit: cover ; min-width: 100px; height: 180px; border-radius: 10px;"></img>
+                        <div style="margin-left:10px" >Science and Technology Program, Krabi Provincial Administrative Organization School.</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="project" class="projects-section">
+            <h2>My <span class="highlight">Projects</span></h2>
+            <div class="project-grid" id="project-container">
+                <div class="project-card">
+                    <img src="images/boat.jpg" alt="Project 1" class="project-image">
+                    <div class="project-info">
+                        <h3>The solar-powered garbage collection boat</h3>
+                        <p>Created to promote renewable energy by using solar cells as a component.</p>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1DiIuGel4mdcNCwPoJ-DkEWyWUDP4dFbd/view" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+                <div>
+                    
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+            <button id  ="add-project-btn" style="margin-top: 10px; width: 100px; height: 50px;border-radius: 10px ;"> add project</button>
+    
+
+            <div id="contact" class="contact-section">
+                <h2>Contact <span class="highlight">Me</span></h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                        <ul class="contact-list">
+                            <li><i class="fas fa-envelope"></i> soonjure.kbi@gmail.com</li>
+                            <li><i class="fas fa-phone"></i> +66 62 541 9787</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Thailand, TH</li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('particles.js loaded');
+        });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
